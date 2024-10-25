@@ -6,8 +6,17 @@
 
 body {
   font-family: "Poppins", sans-serif;
+}
+
+:root {
   --color1: #fff;
   --color2: #181818;
+}
+@media (prefer-color-scheme: dark) {
+  :root {
+    --color1: #181818;
+    --color2: #fff;
+  }
 }
 .navbar {
   width: 100%;
